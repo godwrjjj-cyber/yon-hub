@@ -27,4 +27,5 @@ local function OnCharacterAdded(Character)
 end
 
 OnCharacterAdded(LocalPlayer.Character)
+
 LocalPlayer.CharacterAdded:Connect(OnCharacterAdded)
